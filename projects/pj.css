@@ -228,6 +228,9 @@
   .tmc-pj .scard.cvd:not(#tmcx),.tmc-pj .scard.pcd:not(#tmcx){padding:0}
   .tmc-pj .rh:not(#tmcx){left:18px;right:18px;top:16px;font-size:9.5px}
   .tmc-pj .plate:not(#tmcx),.tmc-pj .imprint:not(#tmcx){left:18px}
+  /* 휴대폰 폭에선 긴 사진 이름표가 「…」으로 잘렸다 → 두 줄까지 내려 쓰기 (2026-10-07) */
+  .tmc-pj .plate:not(#tmcx){right:76px}
+  .tmc-pj .plate span:not(#tmcx){white-space:normal;overflow:visible;text-overflow:clip;line-height:1.35;word-break:keep-all;text-align:left}
   .tmc-pj .scard.cvd img.tlogo2:not(#tmcx){top:16px;left:18px;height:26px}
   .tmc-pj .cno2:not(#tmcx){top:23px;right:18px}
   .tmc-pj .sbody:not(#tmcx){padding:0 22px}
