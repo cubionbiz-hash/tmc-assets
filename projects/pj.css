@@ -236,3 +236,6 @@
   .tmc-pj .sbody:not(#tmcx){padding:0 22px}
   .tmc-pj .more:not(#tmcx){padding:28px 0 80px}
 }
+
+/* 아임웹 섹션 상하 여백 0(우리 코드가 든 섹션만) */
+.section_wrap:has(.tmc-root){padding-top:0!important;padding-bottom:0!important}
