@@ -306,3 +306,6 @@
   .tmc-ba .rsw a:not(#tmcx){padding:8px 2px 11px;font-size:13.5px}
   .tmc-ba .rsw a.on:not(#tmcx)::after{left:0;right:0}
 }
+
+/* 아임웹 섹션 상하 여백 0(우리 코드가 든 섹션만) */
+.section_wrap:has(.tmc-root){padding-top:0!important;padding-bottom:0!important}
